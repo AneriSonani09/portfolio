@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AneriVSonani</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" class="rel">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .logo {
+    color: #085568;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .logo h2 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 22px;
+    text-align: center;
+    color: #6E6658;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 14%;
+
+  }
+
+  @media screen and (max-width: 1100px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .cont {
+    padding: 2px 16px;
+  }
+
+  .lg {
+    color: #085568;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    padding: 10px;
+  }
+  span{
+    border-radius: 5px;
+    color: white;
+    background-color:#085568;
+  }
+</style>
+
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">About Me</a></li>
+        <li><a href="skill.html">Skill</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="blog.html">My Blog</a></li>
+        <li><a href="index.html#contectme">Contect Me</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div class="logo">
+    <i class="fas fa-user-cog"></i>
+    <h2>My Services</h2>
+  </div>
+
+  <div class="row">
+    <div class="column">
+
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+        <i class="fas fa-code"></i>
+          </div>
+          <h4><b>Web Devlopment</b></h4>
+          <p> The web development process includes web design, web content development, client-side/server-side
+            scripting and network security configuration, </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+            <i class="fas fa-layer-group "></i>
+          </div>
+          <h4><b>Graphic Design</b></h4>
+          <p>creates the look, layout, and features of a website design process relating to the front-end (client side)
+            design of a website including writing markup.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="column">
+
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h4><b>Responsive Design</b></h4>
+          <p>web design that makes web pages render well on a variety of devices and window or screen sizes from minimum
+            to maximum display size.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+            <i class="fab fa-slack"></i>
+          </div>
+          <h4><b>Logo Design</b></h4>
+          <p>creates the look, layout, and features of a website design process relating to the front-end (client side)
+            design of a website including writing markup.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+            <i class="fas fa-window-restore"></i>
+          </div>
+          <h4><b>Devlopment</b></h4>
+          <p>creates the look, layout, and features of a website design process relating to the front-end (client side)
+            design of a website including writing markup.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <div class="cont">
+          <div class="lg">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <h4><b>Photography</b></h4>
+          <p>creates the look, layout, and features of a website design process relating to the front-end (client side)
+            design of a website including writing markup.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+</body>
+
+</html>

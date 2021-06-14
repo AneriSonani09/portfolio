@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" class="rel">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>AneriVSonani</title>
+</head>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: #085568;
+  margin-top: 9%;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  h1{
+    margin-top: 23%;
+  }
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+<body>
+
+  <header>
+    <nav>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">About Me</a></li>
+        <li><a href="skill.html">Skill</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="blog.html">My Blog</a></li>
+        <li><a href="index.html#contectme">Contect Me</a></li>
+
+      </ul>
+    </nav>
+  </header>
+    <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>MY BLOG</h1>
+    <hr>
+    
+    <h2>PORTFOLIO</h2>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="quotes.jpg" alt="Mountains" style="width:100%">
+          <h3>Quotes</h3>
+          <p>I really like to Reading Somae innovative and motivational Quotes and Novels. We have to keep in mind that even a constant source of motivation fades away in life. </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="sports.jpg" alt="Lights" style="width:100%">
+          <h3>Sports</h3>
+          <p>I like to play Badminton and Table Tannis. sports is very important in our life.Playing sports is like meditation.Sports are an integral part of human life </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="travelling.jpeg" alt="Nature" style="width:100%">
+          <h3>Travelling</h3>
+          <p>find Some Place palces and travelling Give me more memorable memories.Discovering cultural differences is a great eye-opening experience, which broadens our mind.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="photo.jpg" alt="Mountains" style="width:100%">
+          <h3>Snaps</h3>
+          <p>Photography is one of the my Hobbies. We take photos to capture memories that we want to remember. A photo says a thousand words.I look for the look of happiness and joy</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <img src="music.jpg" alt="Bear" style="width:100%">
+      <h3>Superb Melodies</h3>
+      <p>Music is one of the essentisl components in my life. Music Give me Entertainment and Relaxation when i feel Exhausted.The beautiful rythms of music Give me happiness. After a day long study, i like to take break to listen to some melody by myself.Music is an important part of our life as it is a way of expressing our feelings as well as emotions. Some people consider music as a way to escape from the pain of life. It gives you relief and allows you to reduce the stress. Music is a powerful therapy that will make you calm down and in the moment of joy, it will make you cheerful.</p>
+    </div>
+    
+    <!-- END MAIN -->
+    </div>
+    
+</body>
+</html>
